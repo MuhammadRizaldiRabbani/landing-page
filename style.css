@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://images.squarespace-cdn.com/content/v1/5bd82ac99b8fe8178d5bc6e9/1662452494642-7TBM1OWLO30L4IFHKDLE/unsplash-image-aWXVxy8BSzc.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.container {
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ffff;
+}
+
+.warna-teks {
+    color: #ffff;
+}
+
+.button {
+    display: block;
+    width: 90%;
+    padding: 15px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.button img {
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.button:nth-child(even) {
+    background-color: #f00;
+}
+
+.button:nth-child(odd) {
+    background-color: #00f;
+}
+
+.button_special {
+    background-color: #ff0;
+}
+
+.cta {
+    font-size: 14px;
+    color: #666;
+}
